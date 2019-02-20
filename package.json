@@ -1,0 +1,32 @@
+{
+  "name": "stlnode",
+  "version": "0.0.1",
+  "description": "Node port of Seasonal Decomposition of Time Series by Loess",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elwlwlwk/STLnode.git"
+  },
+  "keywords": [
+    "Seasonal Decomposition of Time Series by Loess",
+    "STL"
+  ],
+  "author": "MinGyu Lee <holo@wisewolf.org>",
+  "main": "dist/stl.js",
+  "files": [
+    "dist/"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elwlwlwk/STLnode/issues"
+  },
+  "homepage": "https://github.com/elwlwlwk/STLnode#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
